@@ -94,7 +94,7 @@ FileProgress.prototype.setChunkProgess = function(chunk_size) {
     var progressBarChunk = $('<div/>');
     for (var i = 1; i <= chunk_amount; i++) {
         var col = $('<div class="col-md-2"/>');
-        var progressBarWrapper = $('<div class="progress progress-striped"></div');
+        var progressBarWrapper = $('<div class="progress progress-striped"></div>');
 
         var progressBar = $("<div/>");
         progressBar.addClass("progress-bar progress-bar-info text-left")
